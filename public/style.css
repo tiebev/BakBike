@@ -83,7 +83,6 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(180px, auto));
     gap: 1rem;
     margin-top: 2rem;
-
 }
 
 .categories-container .box{
@@ -91,7 +90,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     border-radius: 0.5rem;
 
 }
@@ -106,8 +105,6 @@ header {
 .categories-container .box .h2{
     font-size: 1rem;
     font-weight: 600;
-    padding: 20pxpx;
-    margin: 20px;
 
 }
 
