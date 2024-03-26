@@ -13,6 +13,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -50,12 +53,19 @@
         </div>
       </nav>
 
-
       <header class="header">
-        <h1>BakBike</h1>
-        <p>jouw lading onze passie</p>
-      </header>
-
+      <div class="header-container">
+        <div class="header-box-1">
+<img src="images/header.jpg">
+        </div>
+        <div class="header-box-2">
+          <img src="images/header.jpg">
+        </div>
+        <div class="header-box-3">
+          <img src="images/header.jpg">
+        </div>
+      </div>
+</header>
       <main class="who">
         <section class="text">
         <h1>Who are we?</h1>
@@ -69,71 +79,109 @@
       <!---BOX 1-->
       <div class="categories-container">
         <div class="box box1">
-            <img src="images/Blushhome.jpg" alt="">
+            <img src="" alt="image of bike 1">
             <h3>Bike 1</h3>
             <span>price:</span>
-            <a href="product.html"><i class='bx bx-right-arrow-alt'></i></a>
        </div>
 
 
 <!---BOX 2-->
    
         <div class="box box2">
-            <img src="images/cupid.jpg" alt="">
+            <img src="" alt="image of bike 2">
             <h3>Bike 2</h3>
             <span>price: </span>
-            <a href="product.html"><i class='bx bx-right-arrow-alt'></i></a>
         </div>
 
 <!---BOX 3-->
    
         <div class="box box3">
-            <img src="images/shimmer.jpg" alt="">
+            <img src="" alt="image of bke 3">
             <h3>Bike 3</h3>
-            <span>price: </span>
-            <a href="product.html"><i class='bx bx-right-arrow-alt'></i></a>
+            <span>Price:  </span>
         </div>
        </div>
 </section>
 
-
+<section class="reviews2">
+  <h1> Why costumers love us </h1>
 </section>
-<section class="customers" id="costumers">
-    <h2>Why customers love us?</h2>
-    <div class="customers-container">
-        <!---Review 1-->
-        <div class="box">
-            <i class='bx bxs-quote-alt-right' ></i>
-            <div class="stars">
-                <i class='bx bxs-star' ></i>
-                <i class='bx bxs-star' ></i>
-                <i class='bx bxs-star' ></i>
-                <i class='bx bxs-star' ></i>
-                <i class='bx bxs-star-half' ></i>
-            </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quis labore non accusantium similique ex deleniti in debitis. Iusto voluptas facilis nemo doloribus laboriosam aut ut? Iusto ab aliquid sint.</p>
-            <div class="review-profile"></div>
-            <img src="" alt="image of a person">
-            <h3>Lin</h3>
-        </div>
-                <!---Review 2-->
-                <div class="box">
-                    <i class='bx bxs-quote-alt-right' ></i>
-                    <div class="stars">
-                        <i class='bx bxs-star' ></i>
-                        <i class='bx bxs-star' ></i>
-                        <i class='bx bxs-star' ></i>
-                        <i class='bx bxs-star' ></i>
-                        <i class='bx bxs-star-half' ></i>
-                    </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic quis labore non accusantium similique ex deleniti in debitis. Iusto voluptas facilis nemo doloribus laboriosam aut ut? Iusto ab aliquid sint.</p>
-                    <div class="review-profile"></div>
-                    <img src="" alt="image of a person">
-                    <h3>Jin</h3>
-                </div>
-    </div>
 
-</section>    
+<section class="reviews">
+
+   <!-- Swiper -->
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide" >     
+      <div class="testimonialBox">
+        <img src="" class="quote">
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minus quod excepturi ipsam nobis accusantium, iure, expedita eos amet explicabo labore quam maxime. Voluptates mollitia amet, molestias cum vitae fugit.</p>
+          <div class="detials">
+            <div class="imgBx">
+              <img src="user1.jpg">
+            </div>
+            <h3><br><span>Someone's name </span><h3>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide" >     
+        <div class="testimonialBox">
+          <img src="quote.png" class="quote">
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minus quod excepturi ipsam nobis accusantium, iure, expedita eos amet explicabo labore quam maxime. Voluptates mollitia amet, molestias cum vitae fugit.</p>
+            <div class="detials">
+              <div class="imgBx">
+                <img src="user1.jpg">
+              </div>
+              <h3><br><span> Someone's name</span></h3>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="swiper-slide" >     
+          <div class="testimonialBox">
+            <img src="" class="quote">
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minus quod excepturi ipsam nobis accusantium, iure, expedita eos amet explicabo labore quam maxime. Voluptates mollitia amet, molestias cum vitae fugit.</p>
+              <div class="detials">
+                <div class="imgBx">
+                  <img src="user1.jpg">
+                </div>
+                <h3><br><span> Someone's name</span><h3>
+              </div>
+            </div>
+          </div>
+          </div>
+    </div>
+   <div class="swiper-pagination"></div>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+
+ 
 
    
     <footer>
